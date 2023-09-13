@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgb(250, 248, 246);
+    margin:0;
+
+}
+
+header{
+    background-color: rgb(249, 179, 193);
+    display:flex;
+    flex-direction: column;
+}
+
+.logo{
+    width:100px;
+    height:100px;
+}
+
+.darken{
+    filter:brightness(50%);
+
+}
+
+h1{
+    text-align: center;
+    margin:auto;
+}
+
+h2{
+    text-align: center;
+}
+
+nav{
+    background-color: rgb(200, 247, 247);
+
+}
+
+nav ul{
+    text-align: center;
+    justify-content: space-between;
+    padding:0;
+
+
+}
+
+nav li{
+    display:inline-block;
+    list-style-type: none;
+    
+
+
+}
+
+nav a{
+
+
+
+}
+
+nav a.hover{
+
+
+}
+
+#design{
+
+
+
+}
+
+.banner{
+
+
+}
+
+img{
+    width:100%;
+    height:100%;
+    display:block;
+
+
+}
+
+
+p{
+
+
+
+}
+
+.Shop{
+
+
+}
+
+main{
+    display:grid;
+    grid-gap:20px;
+    flex-direction: column;
+    grid-template-areas: 
+    "1 2 3"
+    padding:5px;
+}
+
+.1{
+    display:block;
+}
+
+footer{
+    background-color:brown;
+}
+
